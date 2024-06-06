@@ -112,7 +112,7 @@
           <is_null_allowed>true</is_null_allowed>
           <tracking_level>none</tracking_level>
         </field>
-        <field id="purchase_date" xsi:type="AttributeDate">
+        <field id="purchase_dates" xsi:type="AttributeDate">
           <sql>purchase_dates</sql>
           <default_value/>
           <is_null_allowed>true</is_null_allowed>
@@ -401,7 +401,7 @@
                 <item id="supplier">
                   <rank>140</rank>
                 </item>
-                <item id="purchase_date">
+                <item id="purchase_dates">
                   <rank>150</rank>
                 </item>
                 <item id="age">
@@ -569,7 +569,7 @@
             <item id="supplier">
               <rank>140</rank>
             </item>
-            <item id="purchase_date">
+            <item id="purchase_dates">
               <rank>150</rank>
             </item>
             <item id="age">
@@ -735,7 +735,7 @@
             <item id="supplier">
               <rank>140</rank>
             </item>
-            <item id="purchase_date">
+            <item id="purchase_dates">
               <rank>150</rank>
             </item>
             <item id="age">

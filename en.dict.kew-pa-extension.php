@@ -23,7 +23,7 @@ Dict::Add('EN US', 'English', 'English', array(
     'Class:Asset/Attribute:default_location' => 'Default Location',
     'Class:Asset/Attribute:manufacturer' => 'Manufacturer',
     'Class:Asset/Attribute:supplier' => 'Supplier',
-    'Class:Asset/Attribute:purchase_date' => 'Purchase Date',
+    'Class:Asset/Attribute:purchase_dates' => 'Purchase Date',
     'Class:Asset/Attribute:age' => 'Age',
     'Class:Asset/Attribute:purchase_cost' => 'Purchase Cost',
     'Class:Asset/Attribute:current_value' => 'Current Value',
