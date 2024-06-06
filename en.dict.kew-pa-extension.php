@@ -16,7 +16,7 @@ Dict::Add('EN US', 'English', 'English', array(
     'Class:Asset/Attribute:model' => 'Model',
     'Class:Asset/Attribute:model_no' => 'Model Number',
     'Class:Asset/Attribute:category' => 'Category',
-    'Class:Asset/Attribute:status' => 'Status',
+    'Class:Asset/Attribute:statuss' => 'Status',
     'Class:Asset/Attribute:checked_out_to' => 'Checked Out To',
     'Class:Asset/Attribute:employee_number' => 'Employee Number',
     'Class:Asset/Attribute:location' => 'Location',

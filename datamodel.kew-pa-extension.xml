@@ -70,8 +70,8 @@
           <is_null_allowed>true</is_null_allowed>
           <tracking_level>none</tracking_level>
         </field>
-        <field id="status" xsi:type="AttributeString">
-          <sql>status</sql>
+        <field id="statuss" xsi:type="AttributeString">
+          <sql>statuss</sql>
           <default_value/>
           <is_null_allowed>true</is_null_allowed>
           <tracking_level>none</tracking_level>
@@ -380,7 +380,7 @@
                 <item id="category">
                   <rank>70</rank>
                 </item>
-                <item id="status">
+                <item id="statuss">
                   <rank>80</rank>
                 </item>
                 <item id="checked_out_to">
@@ -548,7 +548,7 @@
             <item id="category">
               <rank>70</rank>
             </item>
-            <item id="status">
+            <item id="statuss">
               <rank>80</rank>
             </item>
             <item id="checked_out_to">
@@ -714,7 +714,7 @@
             <item id="category">
               <rank>70</rank>
             </item>
-            <item id="status">
+            <item id="statuss">
               <rank>80</rank>
             </item>
             <item id="checked_out_to">
