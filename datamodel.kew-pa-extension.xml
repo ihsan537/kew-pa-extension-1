@@ -123,16 +123,16 @@
           <default_value/>
           <is_null_allowed>true</is_null_allowed>
           <tracking_level>none</tracking_level>
-          <digits>100</digits>
-          <decimals>100</decimals>
+          <digits>38</digits>
+          <decimals>38</decimals>
         </field>
         <field id="current_value" xsi:type="AttributeDecimal">
           <sql>current_value</sql>
           <default_value/>
           <is_null_allowed>true</is_null_allowed>
           <tracking_level>none</tracking_level>
-          <digits>100</digits>
-          <decimals>100</decimals>
+          <digits>38</digits>
+          <decimals>38</decimals>
         </field>
         <field id="order_number" xsi:type="AttributeString">
           <sql>order_number</sql>
@@ -339,8 +339,8 @@
           <default_value/>
           <is_null_allowed>true</is_null_allowed>
           <tracking_level>none</tracking_level>
-          <digits>100</digits>
-          <decimals>100</decimals>
+          <digits>38</digits>
+          <decimals>38</decimals>
         </field>
         <field id="supplier_name" xsi:type="AttributeString">
           <sql>supplier_name</sql>
