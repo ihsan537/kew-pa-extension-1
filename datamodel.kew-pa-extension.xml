@@ -113,7 +113,7 @@
           <tracking_level>none</tracking_level>
         </field>
         <field id="purchase_date" xsi:type="AttributeDate">
-          <sql>purchase_date</sql>
+          <sql>purchase_dates</sql>
           <default_value/>
           <is_null_allowed>true</is_null_allowed>
           <tracking_level>none</tracking_level>
