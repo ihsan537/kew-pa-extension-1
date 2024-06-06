@@ -123,8 +123,8 @@
           <default_value/>
           <is_null_allowed>true</is_null_allowed>
           <tracking_level>none</tracking_level>
-          <digits>38</digits>
-          <decimals>38</decimals>
+          <digits>2</digits>
+          <decimals>2</decimals>
         </field>
         <field id="current_value" xsi:type="AttributeDecimal">
           <sql>current_value</sql>
