@@ -529,6 +529,15 @@
                 <item id="region">
                   <rank>540</rank>
                 </item>
+                <item id="name">
+                <rank>550</rank>
+                </item>
+                <item id="org_id">
+                <rank>560</rank>
+                </item>
+                <item id="status">
+                <rank>570</rank>
+                </item>
               </items>
             </item>
           </items>
@@ -697,6 +706,15 @@
             <item id="region">
               <rank>540</rank>
             </item>
+            <item id="name">
+                <rank>550</rank>
+                </item>
+                <item id="org_id">
+                <rank>560</rank>
+                </item>
+                <item id="status">
+                <rank>570</rank>
+                </item>
           </items>
         </search>
         <list>
@@ -863,6 +881,13 @@
             <item id="region">
               <rank>540</rank>
             </item>
+            
+                <item id="org_id">
+                <rank>550</rank>
+                </item>
+                <item id="status">
+                <rank>560</rank>
+                </item>
           </items>
         </list>
 </presentation>
