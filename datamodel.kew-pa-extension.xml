@@ -28,8 +28,6 @@
         </reconciliation>
       </properties>
       <fields>
-        <field id="org_id" xsi:type="AttributeString">
-        </field>
         <field id="asset_name" xsi:type="AttributeString">
           <sql>asset_name</sql>
           <default_value/>
