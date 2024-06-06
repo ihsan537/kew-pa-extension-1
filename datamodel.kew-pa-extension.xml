@@ -130,6 +130,7 @@
           <is_null_allowed>true</is_null_allowed>
           <tracking_level>none</tracking_level>
           <digits>2</digits>
+          <decimals>2</decimals>
         </field>
         <field id="current_value" xsi:type="AttributeDecimal">
           <sql>current_value</sql>
@@ -137,6 +138,7 @@
           <is_null_allowed>true</is_null_allowed>
           <tracking_level>none</tracking_level>
           <digits>2</digits>
+          <decimals>2</decimals>
         </field>
         <field id="order_number" xsi:type="AttributeString">
           <sql>order_number</sql>
@@ -150,6 +152,7 @@
           <is_null_allowed>true</is_null_allowed>
           <tracking_level>none</tracking_level>
           <digits>2</digits>
+          <decimals>2</decimals>
         </field>
         <field id="eol_date" xsi:type="AttributeDate">
           <sql>eol_date</sql>
@@ -343,6 +346,7 @@
           <is_null_allowed>true</is_null_allowed>
           <tracking_level>none</tracking_level>
           <digits>2</digits>
+          <decimals>2</decimals>
         </field>
         <field id="supplier_name" xsi:type="AttributeString">
           <sql>supplier_name</sql>
