@@ -52,6 +52,12 @@
           <is_null_allowed>true</is_null_allowed>
           <tracking_level>none</tracking_level>
         </field>
+        <field id="url" xsi:type="AttributeURLExtended">
+          <sql>url</sql>
+          <default_value/>
+          <is_null_allowed>true</is_null_allowed>
+          <tracking_level>none</tracking_level>
+        </field>
       </fields>
       <methods/>
       <presentation>
@@ -80,6 +86,9 @@
                 <item id="ip_address">
                   <rank>440</rank>
                 </item>
+                <item id="url">
+                  <rank>450</rank>
+                </item>
               </items>
             </item>
           </items>
@@ -103,6 +112,9 @@
             </item>
             <item id="ip_address">
               <rank>440</rank>
+            </item>
+            <item id="url">
+              <rank>450</rank>
             </item>
           </items>
         </search>
@@ -128,6 +140,9 @@
             </item>
             <item id="ip_address">
               <rank>440</rank>
+            </item>
+            <item id="url">
+              <rank>450</rank>
             </item>
           </items>
         </list>
