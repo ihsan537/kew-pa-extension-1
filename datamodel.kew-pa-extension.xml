@@ -28,12 +28,7 @@
         </reconciliation>
       </properties>
       <fields>
-        <field id="asset_name" xsi:type="AttributeString">
-          <sql>asset_name</sql>
-          <default_value/>
-          <is_null_allowed>true</is_null_allowed>
-          <tracking_level>none</tracking_level>
-        </field>
+
         <field id="asset_tag" xsi:type="AttributeString">
           <sql>asset_tag</sql>
           <default_value/>
@@ -52,308 +47,15 @@
           <is_null_allowed>true</is_null_allowed>
           <tracking_level>none</tracking_level>
         </field>
-        <field id="model_no" xsi:type="AttributeString">
-          <sql>model_no</sql>
-          <default_value/>
-          <is_null_allowed>true</is_null_allowed>
-          <tracking_level>none</tracking_level>
-        </field>
-        <field id="category" xsi:type="AttributeString">
-          <sql>category</sql>
-          <default_value/>
-          <is_null_allowed>true</is_null_allowed>
-          <tracking_level>none</tracking_level>
-        </field>
-        <field id="statuss" xsi:type="AttributeString">
-          <sql>statuss</sql>
-          <default_value/>
-          <is_null_allowed>true</is_null_allowed>
-          <tracking_level>none</tracking_level>
-        </field>
-        <field id="checked_out_to" xsi:type="AttributeString">
-          <sql>checked_out_to</sql>
-          <default_value/>
-          <is_null_allowed>true</is_null_allowed>
-          <tracking_level>none</tracking_level>
-        </field>
-        <field id="employee_number" xsi:type="AttributeString">
-          <sql>employee_number</sql>
-          <default_value/>
-          <is_null_allowed>true</is_null_allowed>
-          <tracking_level>none</tracking_level>
-        </field>
-        <field id="location" xsi:type="AttributeString">
-          <sql>location</sql>
-          <default_value/>
-          <is_null_allowed>true</is_null_allowed>
-          <tracking_level>none</tracking_level>
-        </field>
-        <field id="default_location" xsi:type="AttributeString">
-          <sql>default_location</sql>
-          <default_value/>
-          <is_null_allowed>true</is_null_allowed>
-          <tracking_level>none</tracking_level>
-        </field>
-        <field id="manufacturer" xsi:type="AttributeString">
-          <sql>manufacturer</sql>
-          <default_value/>
-          <is_null_allowed>true</is_null_allowed>
-          <tracking_level>none</tracking_level>
-        </field>
-        <field id="supplier" xsi:type="AttributeString">
-          <sql>supplier</sql>
-          <default_value/>
-          <is_null_allowed>true</is_null_allowed>
-          <tracking_level>none</tracking_level>
-        </field>
-        <field id="purchase_dates" xsi:type="AttributeDate">
-          <sql>purchase_dates</sql>
-          <default_value/>
-          <is_null_allowed>true</is_null_allowed>
-          <tracking_level>none</tracking_level>
-        </field>
-        <field id="age" xsi:type="AttributeInteger">
-          <sql>age</sql>
-          <default_value/>
-          <is_null_allowed>true</is_null_allowed>
-          <tracking_level>none</tracking_level>
-        </field>
-        <field id="purchase_cost" xsi:type="AttributeDecimal">
-          <sql>purchase_cost</sql>
-          <default_value/>
-          <is_null_allowed>true</is_null_allowed>
-          <tracking_level>none</tracking_level>
-          <digits>10</digits>
-          <decimals>2</decimals>
-        </field>
-        <field id="current_value" xsi:type="AttributeDecimal">
-          <sql>current_value</sql>
-          <default_value/>
-          <is_null_allowed>true</is_null_allowed>
-          <tracking_level>none</tracking_level>
-          <digits>10</digits>
-          <decimals>2</decimals>
-        </field>
-        <field id="order_number" xsi:type="AttributeString">
-          <sql>order_number</sql>
-          <default_value/>
-          <is_null_allowed>true</is_null_allowed>
-          <tracking_level>none</tracking_level>
-        </field>
-        <field id="eol_rate" xsi:type="AttributeDecimal">
-          <sql>eol_rate</sql>
-          <default_value/>
-          <is_null_allowed>true</is_null_allowed>
-          <tracking_level>none</tracking_level>
-          <digits>2</digits>
-          <decimals>2</decimals>
-        </field>
-        <field id="eol_date" xsi:type="AttributeDate">
-          <sql>eol_date</sql>
-          <default_value/>
-          <is_null_allowed>true</is_null_allowed>
-          <tracking_level>none</tracking_level>
-        </field>
-        <field id="warranty" xsi:type="AttributeString">
-          <sql>warranty</sql>
-          <default_value/>
-          <is_null_allowed>true</is_null_allowed>
-          <tracking_level>none</tracking_level>
-        </field>
-        <field id="warranty_expires" xsi:type="AttributeDate">
-          <sql>warranty_expires</sql>
-          <default_value/>
-          <is_null_allowed>true</is_null_allowed>
-          <tracking_level>none</tracking_level>
-        </field>
-        <field id="requestable" xsi:type="AttributeString">
-          <sql>requestable</sql>
-          <default_value/>
-          <is_null_allowed>true</is_null_allowed>
-          <tracking_level>none</tracking_level>
-        </field>
-        <field id="notes" xsi:type="AttributeText">
-          <sql>notes</sql>
-          <default_value/>
-          <is_null_allowed>true</is_null_allowed>
-          <tracking_level>none</tracking_level>
-        </field>
-        <field id="checkouts" xsi:type="AttributeInteger">
-          <sql>checkouts</sql>
-          <default_value/>
-          <is_null_allowed>true</is_null_allowed>
-          <tracking_level>none</tracking_level>
-        </field>
-        <field id="checkins" xsi:type="AttributeInteger">
-          <sql>checkins</sql>
-          <default_value/>
-          <is_null_allowed>true</is_null_allowed>
-          <tracking_level>none</tracking_level>
-        </field>
-        <field id="requests" xsi:type="AttributeInteger">
-          <sql>requests</sql>
-          <default_value/>
-          <is_null_allowed>true</is_null_allowed>
-          <tracking_level>none</tracking_level>
-        </field>
-        <field id="created_at" xsi:type="AttributeDateTime">
-          <sql>created_at</sql>
-          <default_value/>
-          <is_null_allowed>true</is_null_allowed>
-          <tracking_level>none</tracking_level>
-        </field>
-        <field id="updated_at" xsi:type="AttributeDateTime">
-          <sql>updated_at</sql>
-          <default_value/>
-          <is_null_allowed>true</is_null_allowed>
-          <tracking_level>none</tracking_level>
-        </field>
-        <field id="checkout_date" xsi:type="AttributeDate">
-          <sql>checkout_date</sql>
-          <default_value/>
-          <is_null_allowed>true</is_null_allowed>
-          <tracking_level>none</tracking_level>
-        </field>
-        <field id="last_checkin_date" xsi:type="AttributeDate">
-          <sql>last_checkin_date</sql>
-          <default_value/>
-          <is_null_allowed>true</is_null_allowed>
-          <tracking_level>none</tracking_level>
-        </field>
-        <field id="expected_checkin_date" xsi:type="AttributeDate">
-          <sql>expected_checkin_date</sql>
-          <default_value/>
-          <is_null_allowed>true</is_null_allowed>
-          <tracking_level>none</tracking_level>
-        </field>
-        <field id="last_audit" xsi:type="AttributeDate">
-          <sql>last_audit</sql>
-          <default_value/>
-          <is_null_allowed>true</is_null_allowed>
-          <tracking_level>none</tracking_level>
-        </field>
-        <field id="next_audit_date" xsi:type="AttributeDate">
-          <sql>next_audit_date</sql>
-          <default_value/>
-          <is_null_allowed>true</is_null_allowed>
-          <tracking_level>none</tracking_level>
-        </field>
-        <field id="byod" xsi:type="AttributeString">
-          <sql>byod</sql>
-          <default_value/>
-          <is_null_allowed>true</is_null_allowed>
-          <tracking_level>none</tracking_level>
-        </field>
-        <field id="components_accessories" xsi:type="AttributeText">
-          <sql>components_accessories</sql>
-          <default_value/>
-          <is_null_allowed>true</is_null_allowed>
-          <tracking_level>none</tracking_level>
-        </field>
-        <field id="device_hostname" xsi:type="AttributeString">
-          <sql>device_hostname</sql>
-          <default_value/>
-          <is_null_allowed>true</is_null_allowed>
-          <tracking_level>none</tracking_level>
-        </field>
-        <field id="serial_no" xsi:type="AttributeString">
-          <sql>serial_no</sql>
-          <default_value/>
-          <is_null_allowed>true</is_null_allowed>
-          <tracking_level>none</tracking_level>
-        </field>
-        <field id="asset_location" xsi:type="AttributeString">
-          <sql>asset_location</sql>
-          <default_value/>
-          <is_null_allowed>true</is_null_allowed>
-          <tracking_level>none</tracking_level>
-        </field>
+
+
         <field id="ip_address" xsi:type="AttributeIPAddress">
           <sql>ip_address</sql>
           <default_value/>
           <is_null_allowed>true</is_null_allowed>
           <tracking_level>none</tracking_level>
         </field>
-        <field id="site_id" xsi:type="AttributeString">
-          <sql>site_id</sql>
-          <default_value/>
-          <is_null_allowed>true</is_null_allowed>
-          <tracking_level>none</tracking_level>
-        </field>
-        <field id="site_name" xsi:type="AttributeString">
-          <sql>site_name</sql>
-          <default_value/>
-          <is_null_allowed>true</is_null_allowed>
-          <tracking_level>none</tracking_level>
-        </field>
-        <field id="asset_status" xsi:type="AttributeString">
-          <sql>asset_status</sql>
-          <default_value/>
-          <is_null_allowed>true</is_null_allowed>
-          <tracking_level>none</tracking_level>
-        </field>
-        <field id="operating_system" xsi:type="AttributeString">
-          <sql>operating_system</sql>
-          <default_value/>
-          <is_null_allowed>true</is_null_allowed>
-          <tracking_level>none</tracking_level>
-        </field>
-        <field id="software_installed" xsi:type="AttributeText">
-          <sql>software_installed</sql>
-          <default_value/>
-          <is_null_allowed>true</is_null_allowed>
-          <tracking_level>none</tracking_level>
-        </field>
-        <field id="start_warranty_period" xsi:type="AttributeDate">
-          <sql>start_warranty_period</sql>
-          <default_value/>
-          <is_null_allowed>true</is_null_allowed>
-          <tracking_level>none</tracking_level>
-        </field>
-        <field id="end_warranty_period" xsi:type="AttributeDate">
-          <sql>end_warranty_period</sql>
-          <default_value/>
-          <is_null_allowed>true</is_null_allowed>
-          <tracking_level>none</tracking_level>
-        </field>
-        <field id="delivery_date" xsi:type="AttributeDate">
-          <sql>delivery_date</sql>
-          <default_value/>
-          <is_null_allowed>true</is_null_allowed>
-          <tracking_level>none</tracking_level>
-        </field>
-        <field id="official_government_order_no" xsi:type="AttributeString">
-          <sql>official_government_order_no</sql>
-          <default_value/>
-          <is_null_allowed>true</is_null_allowed>
-          <tracking_level>none</tracking_level>
-        </field>
-        <field id="type_brand_model" xsi:type="AttributeString">
-          <sql>type_brand_model</sql>
-          <default_value/>
-          <is_null_allowed>true</is_null_allowed>
-          <tracking_level>none</tracking_level>
-        </field>
-        <field id="price_per_unit" xsi:type="AttributeDecimal">
-          <sql>price_per_unit</sql>
-          <default_value/>
-          <is_null_allowed>true</is_null_allowed>
-          <tracking_level>none</tracking_level>
-          <digits>10</digits>
-          <decimals>2</decimals>
-        </field>
-        <field id="supplier_name" xsi:type="AttributeString">
-          <sql>supplier_name</sql>
-          <default_value/>
-          <is_null_allowed>true</is_null_allowed>
-          <tracking_level>none</tracking_level>
-        </field>
-        <field id="region" xsi:type="AttributeString">
-          <sql>region</sql>
-          <default_value/>
-          <is_null_allowed>true</is_null_allowed>
-          <tracking_level>none</tracking_level>
-        </field>
+       
       </fields>
       <methods/>
       <presentation>
@@ -371,9 +73,6 @@
   <rank>30</rank>
 </item>
 
-<item id="asset_name">
-  <rank>50</rank>
-</item>
 <item id="asset_tag">
   <rank>60</rank>
 </item>
@@ -383,153 +82,10 @@
 <item id="model">
   <rank>80</rank>
 </item>
-<item id="model_no">
-  <rank>90</rank>
-</item>
-<item id="category">
-  <rank>100</rank>
-</item>
-<item id="statuss">
-  <rank>110</rank>
-</item>
-<item id="checked_out_to">
-  <rank>120</rank>
-</item>
-<item id="employee_number">
-  <rank>130</rank>
-</item>
-<item id="location">
-  <rank>140</rank>
-</item>
-<item id="default_location">
-  <rank>150</rank>
-</item>
-<item id="manufacturer">
-  <rank>160</rank>
-</item>
-<item id="supplier">
-  <rank>170</rank>
-</item>
-<item id="purchase_dates">
-  <rank>180</rank>
-</item>
-<item id="age">
-  <rank>190</rank>
-</item>
-<item id="purchase_cost">
-  <rank>200</rank>
-</item>
-<item id="current_value">
-  <rank>210</rank>
-</item>
-<item id="order_number">
-  <rank>220</rank>
-</item>
-<item id="eol_rate">
-  <rank>230</rank>
-</item>
-<item id="eol_date">
-  <rank>240</rank>
-</item>
-<item id="warranty">
-  <rank>250</rank>
-</item>
-<item id="warranty_expires">
-  <rank>260</rank>
-</item>
-<item id="requestable">
-  <rank>270</rank>
-</item>
-<item id="notes">
-  <rank>280</rank>
-</item>
-<item id="checkouts">
-  <rank>290</rank>
-</item>
-<item id="checkins">
-  <rank>300</rank>
-</item>
-<item id="requests">
-  <rank>310</rank>
-</item>
-<item id="created_at">
-  <rank>320</rank>
-</item>
-<item id="updated_at">
-  <rank>330</rank>
-</item>
-<item id="checkout_date">
-  <rank>340</rank>
-</item>
-<item id="last_checkin_date">
-  <rank>350</rank>
-</item>
-<item id="expected_checkin_date">
-  <rank>360</rank>
-</item>
-<item id="last_audit">
-  <rank>370</rank>
-</item>
-<item id="next_audit_date">
-  <rank>380</rank>
-</item>
-<item id="byod">
-  <rank>390</rank>
-</item>
-<item id="components_accessories">
-  <rank>400</rank>
-</item>
-<item id="device_hostname">
-  <rank>410</rank>
-</item>
-<item id="serial_no">
-  <rank>420</rank>
-</item>
-<item id="asset_location">
-  <rank>430</rank>
-</item>
 <item id="ip_address">
   <rank>440</rank>
 </item>
-<item id="site_id">
-  <rank>450</rank>
-</item>
-<item id="site_name">
-  <rank>460</rank>
-</item>
-<item id="asset_status">
-  <rank>470</rank>
-</item>
-<item id="operating_system">
-  <rank>480</rank>
-</item>
-<item id="software_installed">
-  <rank>490</rank>
-</item>
-<item id="start_warranty_period">
-  <rank>500</rank>
-</item>
-<item id="end_warranty_period">
-  <rank>510</rank>
-</item>
-<item id="delivery_date">
-  <rank>520</rank>
-</item>
-<item id="official_government_order_no">
-  <rank>530</rank>
-</item>
-<item id="type_brand_model">
-  <rank>540</rank>
-</item>
-<item id="price_per_unit">
-  <rank>550</rank>
-</item>
-<item id="supplier_name">
-  <rank>560</rank>
-</item>
-<item id="region">
-  <rank>570</rank>
-</item>
+
 
               </items>
             </item>
@@ -537,7 +93,33 @@
         </details>
         <search>
           <items>
-            <item id="name">
+
+<item id="org_id">
+  <rank>20</rank>
+</item>
+<item id="status">
+  <rank>30</rank>
+</item>
+
+<item id="asset_tag">
+  <rank>60</rank>
+</item>
+<item id="serial">
+  <rank>70</rank>
+</item>
+<item id="model">
+  <rank>80</rank>
+</item>
+<item id="ip_address">
+  <rank>440</rank>
+</item>
+
+          </items>
+        </search>
+        <list>
+          <items>
+ <items>
+                <item id="name">
   <rank>10</rank>
 </item>
 <item id="org_id">
@@ -547,9 +129,6 @@
   <rank>30</rank>
 </item>
 
-<item id="asset_name">
-  <rank>50</rank>
-</item>
 <item id="asset_tag">
   <rank>60</rank>
 </item>
@@ -559,346 +138,32 @@
 <item id="model">
   <rank>80</rank>
 </item>
-<item id="model_no">
-  <rank>90</rank>
-</item>
-<item id="category">
-  <rank>100</rank>
-</item>
-<item id="statuss">
-  <rank>110</rank>
-</item>
-<item id="checked_out_to">
-  <rank>120</rank>
-</item>
-<item id="employee_number">
-  <rank>130</rank>
-</item>
-<item id="location">
-  <rank>140</rank>
-</item>
-<item id="default_location">
-  <rank>150</rank>
-</item>
-<item id="manufacturer">
-  <rank>160</rank>
-</item>
-<item id="supplier">
-  <rank>170</rank>
-</item>
-<item id="purchase_dates">
-  <rank>180</rank>
-</item>
-<item id="age">
-  <rank>190</rank>
-</item>
-<item id="purchase_cost">
-  <rank>200</rank>
-</item>
-<item id="current_value">
-  <rank>210</rank>
-</item>
-<item id="order_number">
-  <rank>220</rank>
-</item>
-<item id="eol_rate">
-  <rank>230</rank>
-</item>
-<item id="eol_date">
-  <rank>240</rank>
-</item>
-<item id="warranty">
-  <rank>250</rank>
-</item>
-<item id="warranty_expires">
-  <rank>260</rank>
-</item>
-<item id="requestable">
-  <rank>270</rank>
-</item>
-<item id="notes">
-  <rank>280</rank>
-</item>
-<item id="checkouts">
-  <rank>290</rank>
-</item>
-<item id="checkins">
-  <rank>300</rank>
-</item>
-<item id="requests">
-  <rank>310</rank>
-</item>
-<item id="created_at">
-  <rank>320</rank>
-</item>
-<item id="updated_at">
-  <rank>330</rank>
-</item>
-<item id="checkout_date">
-  <rank>340</rank>
-</item>
-<item id="last_checkin_date">
-  <rank>350</rank>
-</item>
-<item id="expected_checkin_date">
-  <rank>360</rank>
-</item>
-<item id="last_audit">
-  <rank>370</rank>
-</item>
-<item id="next_audit_date">
-  <rank>380</rank>
-</item>
-<item id="byod">
-  <rank>390</rank>
-</item>
-<item id="components_accessories">
-  <rank>400</rank>
-</item>
-<item id="device_hostname">
-  <rank>410</rank>
-</item>
-<item id="serial_no">
-  <rank>420</rank>
-</item>
-<item id="asset_location">
-  <rank>430</rank>
-</item>
 <item id="ip_address">
   <rank>440</rank>
 </item>
-<item id="site_id">
-  <rank>450</rank>
-</item>
-<item id="site_name">
-  <rank>460</rank>
-</item>
-<item id="asset_status">
-  <rank>470</rank>
-</item>
-<item id="operating_system">
-  <rank>480</rank>
-</item>
-<item id="software_installed">
-  <rank>490</rank>
-</item>
-<item id="start_warranty_period">
-  <rank>500</rank>
-</item>
-<item id="end_warranty_period">
-  <rank>510</rank>
-</item>
-<item id="delivery_date">
-  <rank>520</rank>
-</item>
-<item id="official_government_order_no">
-  <rank>530</rank>
-</item>
-<item id="type_brand_model">
-  <rank>540</rank>
-</item>
-<item id="price_per_unit">
-  <rank>550</rank>
-</item>
-<item id="supplier_name">
-  <rank>560</rank>
-</item>
-<item id="region">
-  <rank>570</rank>
-</item>
 
-          </items>
-        </search>
-        <list>
-          <items>
-           <item id="org_id">
-    <rank>10</rank>
-</item>
-<item id="status">
-    <rank>20</rank>
-</item>
-
-<item id="asset_name">
-    <rank>40</rank>
-</item>
-<item id="asset_tag">
-    <rank>50</rank>
-</item>
-<item id="serial">
-    <rank>60</rank>
-</item>
-<item id="model">
-    <rank>70</rank>
-</item>
-<item id="model_no">
-    <rank>80</rank>
-</item>
-<item id="category">
-    <rank>90</rank>
-</item>
-<item id="statuss">
-    <rank>100</rank>
-</item>
-<item id="checked_out_to">
-    <rank>110</rank>
-</item>
-<item id="employee_number">
-    <rank>120</rank>
-</item>
-<item id="location">
-    <rank>130</rank>
-</item>
-<item id="default_location">
-    <rank>140</rank>
-</item>
-<item id="manufacturer">
-    <rank>150</rank>
-</item>
-<item id="supplier">
-    <rank>160</rank>
-</item>
-<item id="purchase_dates">
-    <rank>170</rank>
-</item>
-<item id="age">
-    <rank>180</rank>
-</item>
-<item id="purchase_cost">
-    <rank>190</rank>
-</item>
-<item id="current_value">
-    <rank>200</rank>
-</item>
-<item id="order_number">
-    <rank>210</rank>
-</item>
-<item id="eol_rate">
-    <rank>220</rank>
-</item>
-<item id="eol_date">
-    <rank>230</rank>
-</item>
-<item id="warranty">
-    <rank>240</rank>
-</item>
-<item id="warranty_expires">
-    <rank>250</rank>
-</item>
-<item id="requestable">
-    <rank>260</rank>
-</item>
-<item id="notes">
-    <rank>270</rank>
-</item>
-<item id="checkouts">
-    <rank>280</rank>
-</item>
-<item id="checkins">
-    <rank>290</rank>
-</item>
-<item id="requests">
-    <rank>300</rank>
-</item>
-<item id="created_at">
-    <rank>310</rank>
-</item>
-<item id="updated_at">
-    <rank>320</rank>
-</item>
-<item id="checkout_date">
-    <rank>330</rank>
-</item>
-<item id="last_checkin_date">
-    <rank>340</rank>
-</item>
-<item id="expected_checkin_date">
-    <rank>350</rank>
-</item>
-<item id="last_audit">
-    <rank>360</rank>
-</item>
-<item id="next_audit_date">
-    <rank>370</rank>
-</item>
-<item id="byod">
-    <rank>380</rank>
-</item>
-<item id="components_accessories">
-    <rank>390</rank>
-</item>
-<item id="device_hostname">
-    <rank>400</rank>
-</item>
-<item id="serial_no">
-    <rank>410</rank>
-</item>
-<item id="asset_location">
-    <rank>420</rank>
-</item>
-<item id="ip_address">
-    <rank>430</rank>
-</item>
-<item id="site_id">
-    <rank>440</rank>
-</item>
-<item id="site_name">
-    <rank>450</rank>
-</item>
-<item id="asset_status">
-    <rank>460</rank>
-</item>
-<item id="operating_system">
-    <rank>470</rank>
-</item>
-<item id="software_installed">
-    <rank>480</rank>
-</item>
-<item id="start_warranty_period">
-    <rank>490</rank>
-</item>
-<item id="end_warranty_period">
-    <rank>500</rank>
-</item>
-<item id="delivery_date">
-    <rank>510</rank>
-</item>
-<item id="official_government_order_no">
-    <rank>520</rank>
-</item>
-<item id="type_brand_model">
-    <rank>530</rank>
-</item>
-<item id="price_per_unit">
-    <rank>540</rank>
-</item>
-<item id="supplier_name">
-    <rank>550</rank>
-</item>
-<item id="region">
-    <rank>560</rank>
-</item>
 
           </items>
         </list>
 </presentation>
-</class>
-</classes>
-<!--  Adds a button to the Config Management Overview  -->
-<menus>
-<menu id="ConfigManagementOverview" xsi:type="DashboardMenuNode" _delta="must_exist">
-<definition>
-<cells>
-<cell id="3" _delta="must_exist">
-<dashlets>
-<dashlet id="102" xsi:type="DashletBadge" _delta="define">
-<rank>8</rank>
-<class>Asset</class>
-</dashlet>
-</dashlets>
-</cell>
-</cells>
-</definition>
-</menu>
-</menus>
-<profiles> </profiles>
+  </class>
+    </classes>
+    <!--  Adds a button to the Config Management Overview  -->
+    <menus>
+    <menu id="ConfigManagementOverview" xsi:type="DashboardMenuNode" _delta="must_exist">
+      <definition>
+        <cells>
+        <cell id="3" _delta="must_exist">
+          <dashlets>
+            <dashlet id="102" xsi:type="DashletBadge" _delta="define">
+              <rank>8</rank>
+                <class>Asset</class>
+            </dashlet>
+            </dashlets>
+        </cell>
+        </cells>
+      </definition>
+    </menu>
+    </menus>
+  <profiles> </profiles>
 </itop_design>
